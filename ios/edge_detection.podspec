@@ -3,8 +3,8 @@
 # Run `pod lib lint edge_detection.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'edge_detection'
-  s.version          = '1.0.9'
+  s.name             = 'bafoeg_scanner'
+  s.version          = '0.0.1'
   s.summary          = 'Plugin to detect edges of objects'
   s.description      = <<-DESC
 Plugin to detect edges of objects
