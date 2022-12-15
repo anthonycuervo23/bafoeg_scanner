@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      imagePath = (await EdgeDetection.detectEdgeFromGallery);
+      imagePath = (await EdgeDetection.detectEdge);
       if (Platform.isIOS) {
         imagePath = imagePath?.split('file://')[1];
 
