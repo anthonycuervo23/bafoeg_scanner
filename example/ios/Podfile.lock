@@ -1,5 +1,5 @@
 PODS:
-  - edge_detection (1.0.9):
+  - edge_detection (0.0.1):
     - Flutter
     - WeScan
   - Flutter (1.0.0)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  edge_detection: 9bc5ee35073b5a17c0b3b679908f01017ce3062a
+  edge_detection: d0e1f6c027988933f2a03990c09fd0900e680c9b
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
   WeScan: fed582f6c38014d529afb5aa9ffd1bad38fc72b7
 
