@@ -94,6 +94,7 @@ class CropActivity : BaseActivity(), ICropView.Proxy {
 
             if (item.title == applicationContext.getString(R.string.done)) {
                 Log.e(TAG, "Saved touched!")
+                item.setEnabled(false)
                 val path = mPresenter.save()
                 Log.e(TAG, "Saved touched! $path")
                 setResult(Activity.RESULT_OK, Intent().putExtra(SCANNED_RESULT, path))

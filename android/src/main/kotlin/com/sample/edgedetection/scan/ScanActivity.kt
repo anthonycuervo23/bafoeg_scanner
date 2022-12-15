@@ -49,9 +49,9 @@ class ScanActivity : BaseActivity(), IScanView.Proxy {
         mPresenter = ScanPresenter(this, this)
     }
 
-    override fun onBackPressed(){
-        Log.i("-==>", "BACK PRESSED!!!!!")
-    }
+//    override fun onBackPressed(){
+//        Log.i("-==>", "BACK PRESSED!!!!!")
+//    }
     override fun prepare() {
         if (!OpenCVLoader.initDebug()) {
             Log.i(TAG, "loading opencv error, exit")

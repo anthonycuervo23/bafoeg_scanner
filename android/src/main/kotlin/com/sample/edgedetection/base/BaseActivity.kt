@@ -16,11 +16,11 @@ abstract class BaseActivity : AppCompatActivity() {
         prepare()
     }
 
-    override fun onBackPressed() {
-        android.util.Log.d("===>", "onBackPressed: 1234")
-        android.util.Log.d("BACK", getFragmentManager().getBackStackEntryCount().toString());
-        super.onBackPressed();
-    }
+//    override fun onBackPressed() {
+//        android.util.Log.d("===>", "onBackPressed: 1234")
+//        android.util.Log.d("BACK", getFragmentManager().getBackStackEntryCount().toString());
+//        super.onBackPressed();
+//    }
 
 
     fun showMessage(id: Int) {
